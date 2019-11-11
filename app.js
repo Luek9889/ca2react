@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', fetchProducts())
+document.addEventListener('DOMContentLoaded', fetchProducts)
 
-fuction fetchProducts(){
+function fetchProducts() {
 
     fetch('db-connect.php')
         .then(res => res.json())
@@ -9,6 +9,7 @@ fuction fetchProducts(){
             document
                 .querySelector('#productsContainer')
                 .innerHTML = json.map(product => '<li>${product.name}: ${product.price}</li>').join('')
+
         });
 
 }
