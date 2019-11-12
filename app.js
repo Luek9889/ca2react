@@ -8,7 +8,7 @@ function fetchProducts() {
 
             document
                 .querySelector('#productsContainer')
-                .innerHTML = json.map(product => '<li>${product.name}: ${product.price}</li>').join('')
+                .innerHTML = json.map(products => `<li> ${products.name} : €${products.price} </li>`).join('')
 
         });
 
