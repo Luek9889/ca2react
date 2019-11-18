@@ -2,5 +2,18 @@
 
 body
 {
-    background : $base-colour;
+    background : $gainsburo;
+}
+#products
+{
+    background : $white;
+    
+}
+#smallTitle
+{
+    font-family: $shoulders-text;
+}
+#navbar navbar-expand-lg navbar-light bg-light
+{
+    background : $p-purple;
 }

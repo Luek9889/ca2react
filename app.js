@@ -1,3 +1,8 @@
+ReactDOM.render(
+    <h1>Hello, world!</h1>,
+    document.getElementById('root')
+  );
+
 document.addEventListener('DOMContentLoaded', fetchProducts)
 
 function fetchProducts() {
@@ -11,5 +16,7 @@ function fetchProducts() {
                 .innerHTML = json.map(products => `<li> ${products.name} : €${products.price} </li>`).join('')
 
         });
+
+        
 
 }

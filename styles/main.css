@@ -1,4 +1,16 @@
 body {
-  background: purple;
+  background: #cee0dc;
+}
+
+#products {
+  background: white;
+}
+
+#smallTitle {
+  font-family: "Big Shoulders Text", cursive;
+}
+
+#navbar navbar-expand-lg navbar-light bg-light {
+  background: #5d265f;
 }
 /*# sourceMappingURL=main.css.map */
